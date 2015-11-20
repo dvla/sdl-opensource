@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fontFamilies>
+
+    <fontFamily name="Open Sans">
+        <normal>fonts/opensans/OpenSans-Regular.ttf</normal>
+        <italic>fonts/opensans/OpenSans-Italic.ttf</italic>
+        <bold>fonts/opensans/OpenSans-Semibold.ttf</bold>
+        <boldItalic>fonts/opensans/OpenSans-SemiboldItalic.ttf</boldItalic>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+        <exportFonts>
+            <export key="net.sf.jasperreports.html">Arial, Helvetica, sans-serif</export>
+            <export key="net.sf.jasperreports.xhtml">Arial, Helvetica, sans-serif</export>
+        </exportFonts>
+    </fontFamily>
+
+    <fontFamily name="GDS Transport Website">
+        <normal>fonts/gds/GDSTransportWebsite-Regular.ttf</normal>
+        <bold>fonts/gds/GDSTransportWebsite-Bold.ttf</bold>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+        <exportFonts>
+            <export key="net.sf.jasperreports.html">Arial, Helvetica, sans-serif</export>
+            <export key="net.sf.jasperreports.xhtml">Arial, Helvetica, sans-serif</export>
+        </exportFonts>
+    </fontFamily>
+
+</fontFamilies>
