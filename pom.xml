@@ -17,6 +17,7 @@
 
     <modules>
         <module>pdf-generator</module>
+	<module>audit-core</module>
     </modules>
 
 </project>

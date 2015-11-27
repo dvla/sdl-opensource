@@ -9,13 +9,14 @@ Welcome to the SDL-opensource superproject which aggregates all published softwa
 Each component has been grouped into different repositories by functional area.  These repositories have been included using `git` submodules.
 
 * pdf-generator
+* audit-core
 
 ## Compiling & Building
 
 ### Required software
 
- * Java 7
- * Maven 3.3
+ * Java 7+
+ * Maven 3+
 
 ### Build execution
 
