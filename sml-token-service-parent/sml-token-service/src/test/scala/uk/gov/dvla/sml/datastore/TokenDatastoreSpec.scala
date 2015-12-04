@@ -2,8 +2,8 @@ package uk.gov.dvla.sml.datastore
 
 import org.joda.time.DateTime
 import org.scalatest.{BeforeAndAfterAll, Suite}
-import uk.gov.dvla.core.BasicMongoConfiguration.ReadPreference
-import uk.gov.dvla.datastore.{MongoDatastore, MongoDatastoreConfig}
+import uk.gov.dvla.sml.core.BasicMongoConfiguration.ReadPreference
+import uk.gov.dvla.sml.datastore.{MongoDatastore, MongoDatastoreConfig}
 import uk.gov.dvla.sml.domain.LicenceAccessToken
 
 trait TokenDatastoreSpec extends Suite with BeforeAndAfterAll {

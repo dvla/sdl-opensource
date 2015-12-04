@@ -18,6 +18,7 @@
     <modules>
         <module>pdf-generator</module>
 	      <module>audit-core</module>
+        <module>test-helpers</module>
         <module>sml-token-service-parent</module>
     </modules>
 

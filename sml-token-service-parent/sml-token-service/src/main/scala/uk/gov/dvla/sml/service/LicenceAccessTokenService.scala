@@ -3,7 +3,7 @@ package uk.gov.dvla.sml.service
 import com.massrelevance.dropwizard.ScalaApplication
 import com.massrelevance.dropwizard.bundles.ScalaBundle
 import io.dropwizard.setup.{Bootstrap, Environment}
-import uk.gov.dvla.datastore.MongoDatastoreConfig
+import uk.gov.dvla.sml.datastore.MongoDatastoreConfig
 
 import uk.gov.dvla.sml.datastore.TokenDatastore
 import uk.gov.dvla.sml.service.config.LicenceAccessTokenServiceConfig

@@ -2,8 +2,8 @@ package uk.gov.dvla.sml.datastore
 
 import com.mongodb.DBObject
 import org.scalatest.{FlatSpec, Matchers}
-import uk.gov.dvla.core.BasicMongoConfiguration.ReadPreference
-import uk.gov.dvla.datastore.{TimeToLiveIndex, MongoDatastore, MongoDatastoreConfig}
+import uk.gov.dvla.sml.core.BasicMongoConfiguration.ReadPreference
+import uk.gov.dvla.sml.datastore.{TimeToLiveIndex, MongoDatastore, MongoDatastoreConfig}
 import uk.gov.dvla.sml.domain.LicenceAccessToken
 
 import scala.collection.JavaConversions._

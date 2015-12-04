@@ -3,7 +3,7 @@ package uk.gov.dvla.sml.datastore
 import java.util.{Calendar, Date}
 
 import io.dropwizard.lifecycle.Managed
-import uk.gov.dvla.datastore.{MongoDatastore, MongoDatastoreConfig, TimeToLiveIndex}
+import uk.gov.dvla.sml.datastore.{MongoDatastore, MongoDatastoreConfig, TimeToLiveIndex}
 import uk.gov.dvla.sml.domain.LicenceAccessToken
 
 import scala.collection.JavaConversions._

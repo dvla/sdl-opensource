@@ -7,7 +7,7 @@ import javax.ws.rs.core.MediaType
 import com.sun.jersey.api.client.{Client, GenericType}
 import org.joda.time.DateTime
 import org.joda.time.format.DateTimeFormat
-import uk.gov.dvla.services.ManagedService
+import uk.gov.dvla.sml.ManagedService
 import uk.gov.dvla.sml.client.LicenceAccessTokenClient.serializableDateFormatter
 import uk.gov.dvla.sml.domain.LicenceAccessToken
 import uk.gov.dvla.sml.service.resource.ExpirableTokenCreationRequest

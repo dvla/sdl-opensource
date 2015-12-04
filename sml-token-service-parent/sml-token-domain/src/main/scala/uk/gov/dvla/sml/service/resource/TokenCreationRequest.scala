@@ -3,7 +3,6 @@ package uk.gov.dvla.sml.service.resource
 import javax.validation.constraints.{NotNull, Size}
 
 import org.joda.time.DateTime
-import uk.gov.dvla.core.validation.constraint.DLN
 
 import scala.beans.BeanProperty
 
@@ -32,7 +31,6 @@ class TokenCreationRequest {
 
   @BeanProperty
   @NotNull
-  @DLN
   var driverNumber: String = null
 
   @BeanProperty
