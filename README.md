@@ -10,6 +10,7 @@ Each component has been grouped into different repositories by functional area. 
 
 * pdf-generator
 * audit-core
+* sml-token-service
 
 ## Compiling & Building
 

@@ -1,0 +1,19 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 13000
+  adminConnectors:
+    - type: http
+      port: 13001
+
+mongo:
+ servers:
+  - localhost:27017
+ database: tokens_db
+ collection: tokens
+ ensureIndexes: true
+ tokenTTLSeconds: 6000 # Dev value: 10 minutes
+
+resource:
+  activeTokensLimit: 15
+  inactiveTokensLimit: 5

@@ -12,12 +12,13 @@
     <description>
         IEP Opensource
     </description>
-    
+
     <packaging>pom</packaging>
 
     <modules>
         <module>pdf-generator</module>
-	<module>audit-core</module>
+	      <module>audit-core</module>
+        <module>sml-token-service-parent</module>
     </modules>
 
 </project>
