@@ -1,0 +1,9 @@
+@(title: String, scripts: Html = Html(""), bodyTop: Html = Html(""))(content: Html
+)(implicit request: RequestHeader, lang: Lang)
+
+@templates.main(
+    title,
+    scripts,
+    bodyTop,
+    helpers.vdl.footer()
+)(content)

@@ -1,0 +1,26 @@
+@()(implicit request: RequestHeader, lang: Lang)
+
+@import views.html.fragments.languageLink
+
+<footer class="group js-footer" id="footer" role="contentinfo"><div class="footer-wrapper">
+    <div class="footer-meta">
+        <div class="footer-meta-inner">
+            <h2 class="visuallyhidden">@Messages("views.helpers.footer.support-links")</h2>
+            <ul>
+                @languageLink()
+            </ul>
+            <p class="built-by">
+                @Html(Messages("views.helpers.footer.GDS"))
+            </p>
+            <div class="open-government-licence">
+                <h2><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="_blank"><img alt="OGL" src="https://assets.digital.cabinet-office.gov.uk/static/open-government-licence_2x-d273d7eca3045d3b710a863d9bfc0b33.png"></a></h2>
+                <p>@Html(Messages("views.helpers.footer.OGL"))</p>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <a href="http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm" target="_blank">&copy; @Messages("views.helpers.footer.copyright")</a>
+        </div>
+    </div>
+</div>
+</footer>

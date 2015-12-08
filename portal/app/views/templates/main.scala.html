@@ -1,0 +1,88 @@
+@(title: String, scripts: Html = Html(""), bodyTop: Html = Html(""), footer: Html)(content: Html
+)(implicit request: RequestHeader, lang: Lang)
+<!DOCTYPE html>
+<html lang=@lang.code>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>@title</title>
+
+    <!--[if gt IE 8]><!-->
+    <link href="@routes.Assets.at("gds/application-ac5c76582c33fd730fdc2704dc401728.css")" media="screen" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+    <!--[if IE 6]>
+    <link href="@routes.Assets.at("gds/application-ie6-d77048f3c3c8d29dd60fcdadd1fc57e2.css")" media="screen" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!--[if IE 7]>
+    <link href="@routes.Assets.at("gds/application-ie7-d4679c8e213c0a8a0ab0a4ddf46487b9.css")" media="screen" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!--[if IE 8]>
+    <link href="@routes.Assets.at("gds/application-ie8-7685de5b79d3e4394e3a97136743392d.css")" media="screen" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <link href="@routes.Assets.at("gds/print-546864271280c5a1b3d7e8a0bbe71896.css")" media="print" rel="stylesheet" type="text/css">
+    <!--[if IE 8]>
+    <!--
+    <script type="text/javascript">
+        (function(){if(window.opera){return;}
+        setTimeout(function(){var a=document,g,b={families:(g=
+        ["nta"]),urls:["https://assets.digital.cabinet-office.gov.uk/static/fonts-ie8-a7369d48db4c172b4371ab9def59c5c9.css"]},
+        c="https://assets.digital.cabinet-office.gov.uk/static/libs/goog/webfont-debug-96870cf9f159ed811fd43c39bdf4656b.js",d="script",
+        e=a.createElement(d),f=a.getElementsByTagName(d)[0],h=g.length;WebFontConfig
+        ={custom:b},e.src=c,f.parentNode.insertBefore(e,f);for(;h=h-1;a.documentElement
+        .className+=' wf-'+g[h].replace(/\s/g,'').toLowerCase()+'-n4-loading');},0)
+        })()
+    </script>
+              -->
+    <![endif]-->
+
+    <!--[if gte IE 9]>
+      <!--><link href="@routes.Assets.at("gds/fonts-607c54f71c7c1f98257595cedaa13a34.css")" media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+    <script src="@routes.Assets.at("gds/jquery-1.7.2-2ce4706f8f7193defaa9e7df2b641e9a.js")" type="text/javascript"></script>
+    <script defer="" src="@routes.Assets.at("gds/application-c7dbb181d219cf9ced8ade278b3b39ad.js")" type="text/javascript"></script>
+
+    <!--[if lt IE 9]>
+    <script src="@routes.Assets.at("gds/ie-fc5bd25c5f46587b9bff917417ab2b7f.js")" type="text/javascript"></script>
+    <![endif]-->
+
+    @helpers.favicon()
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="@routes.Assets.at("gds/frontend.js")" type="text/javascript"></script>
+    <script src="@routes.Assets.at("javascripts/helpToggler.js")"></script>
+    <link title="Search" rel="search" type="application/opensearchdescription+xml" href="/search/opensearch.xml">
+
+    <!--[if gt IE 8]><!-->
+    <link href="@routes.Assets.at("gds/application-c2ffe841ef43190446b7913524259db2.css")" media="screen" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+
+    <link rel="canonical" href="/">
+    <meta name="description" content="GOV.UK - The new place to find government services and information replacing Directgov and Business Link - Simpler, clearer, faster">
+    <!--[if IE 6]><link href="@routes.Assets.at("gds/application-ie6-bbd986c9ecbc69fdad7841d65a1f6bc8.css")" media="screen" rel="stylesheet" type="text/css" /><![endif]--><!--[if IE 7]><link href="https://assets.digital.cabinet-office.gov.uk/frontend/application-ie7-d393955db3f1a94bafde90a877ffe471.css" media="screen" rel="stylesheet" type="text/css" /><![endif]--><!--[if IE 8]><link href="https://assets.digital.cabinet-office.gov.uk/frontend/application-ie8-a1863cc97e07da31987ee0376e34052f.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+
+    <link rel="stylesheet" href="@routes.Assets.at("application.css")" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body class="mainstream no-js">
+@bodyTop
+<script type="text/javascript">
+document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');
+document.body.className = document.body.className.replace('no-js','');
+</script>
+<a href="#content" class="visuallyhidden">@Messages("views.main.header.skip")</a>
+@helpers.header(title)
+
+<div id="wrapper" class="transaction service">
+    <main id="content" role="main" class="group">
+        <article>
+            @content
+        </article>
+    </main>
+</div>
+
+@footer
+
+@scripts
+</body>
+</html>

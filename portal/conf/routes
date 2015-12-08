@@ -1,0 +1,21 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           controllers.Application.index
+GET     /index                      controllers.Application.index
+GET     /sml/:token/:data           controllers.Application.smlStub(token: String, data: String)
+GET     /json/:data                 controllers.Application.smlStubJson(data: String)
+POST    /gentoken                   controllers.Application.generateSharingCode()
+GET     /lang/:language*endpoint    controllers.Application.changeLanguage(language, endpoint)
+
+GET     /driving-record/share/pdf/:data   controllers.ShareLicenceController.generateSharingPDF(data: String)
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
+
+# Map robots.txt for search engines
+GET    /$file<robots.txt>           controllers.Assets.at(path="/public", file)
+
+GET     /*path                      controllers.Application.error(path: String)

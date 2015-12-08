@@ -1,0 +1,542 @@
+/* Global styles */
+.fl
+{
+	float: left;
+	margin-right: 30px;
+	width: 13em;
+	padding-left: 18px;
+}
+.fr { float: left; }
+.clear { clear: both; }
+
+
+
+
+/* Page Styles */
+.category-page .browse-container ul.sub-categories li {	
+	width: 45% !important;
+}
+
+input[type="text"], input[type="search"] {
+	margin-left:0 !important;	
+}
+
+/* Headings - Added by Glen as no margins on titles */
+
+.h2 {
+	margin-bottom: 1em;
+}
+.p-footnote {
+	font-size: 16px;
+	font-size: 1.6rem;
+	margin-bottom: 0;
+	margin-top: 2em;
+	
+}
+/* Block label */
+
+.label-block {
+	display: block;
+}
+
+ul.inline li {
+	float: left;
+	margin-right: 12px;
+}
+
+
+.form-unit {
+	padding: 10px;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 30px;
+	color: inherit;
+	background-color: #eaedef ;
+	border-bottom: 2px solid #dbe2e7;
+}
+.status p {
+	
+	margin: 0;
+}
+ul.details {
+	margin-bottom: 2em !important;
+	border-top: 1px solid #c6ccd1;	
+}
+ul.details li {
+
+	padding-bottom: 5px;
+	margin-bottom: 5px !important;
+	border-bottom: 1px solid #c6ccd1;
+}
+ul.details li:first-of-type {
+
+	padding-top: 5px;
+}
+ul.details li {
+	display: table;
+	width: 100%;
+}
+ul.details li strong {
+	float: left;
+	width: 62%;
+}
+ul.details li span {
+	float: left;
+	width: 38%;
+
+
+}
+.summary p {
+		margin: 0;
+}
+.summary h3 {
+		margin-top: 0;
+}
+.driver-profile #myTab li {
+	margin-bottom: 0;
+
+}
+.driver-profile .tab-content,
+.driver-profile .tab-content .tab-pane {
+
+	margin:0;
+	padding: 0;
+}
+.driver-profile .tab-content .tab-pane {
+
+	padding-top: 2em;
+}
+.driver-profile .tab-content .tab-pane {
+	display: none;
+
+}
+.driver-profile .tab-content .active {
+	display: block;
+
+}
+
+.table-entitlements {
+	width: 100%;
+	font-size: 16px;
+	margin-bottom:2em;
+
+}
+.table-entitlements td {
+	padding: 12px 0;
+	border-bottom: 1px solid #ccc;
+}
+.table-entitlements .category {
+	width: 8%;
+}
+
+.table-entitlements .icon {
+	width: 8%;
+}
+
+.table-entitlements .valid-from {
+	width: 10%;
+}
+
+.table-entitlements .valid-to {
+	width: 10%;
+}
+
+.table-entitlements .desc {
+	width: 38%;
+	padding-right: 2%;
+}
+	.desc-text {
+		padding-right: 20px;
+		display: block;
+	}
+.table-entitlements .restrictions {
+	width: 16%;
+}
+
+.table-entitlements .restrictions a {
+	color: white;
+	text-decoration:underline;
+}
+
+.table-entitlements .restrictions span {
+	color: black;
+}
+
+.table-entitlements th {
+	background: black;
+	color: white;
+	text-align: left;
+	padding: 7px 0;
+
+}
+
+#endorsements h3 {
+		margin-bottom: 16px;
+}
+.endorsement-feed {
+	border-top: 1px solid #ccc;
+
+	margin-bottom: 2em;
+}
+.endorsement-entry {
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0;
+}
+.endorsement-entry h4,
+.endorsement-entry p,
+.endorsement-entry ul {
+	margin-bottom: 16px !important;
+	margin-top: 0;
+}
+.endorsement-entry li {
+	margin-bottom: 0 !important;
+}
+.endorsement-entry p {
+	font-size: 14px;
+}
+.endorsement-entry h4 {
+	font-weight: bold;
+}
+.endorsement-entry .inline li {
+	padding: 5px 0;	
+}
+.endorsement-entry .inline .points {
+	background: #f1f1f1;
+	padding: 5px 8px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+.points-total p {
+	
+	margin: 0;
+}
+.table-endorsement {
+	width: 100%;
+	margin-bottom: 2em;
+}
+.table-endorsement th {
+	background: black;
+	text-align: left;
+	color: white;
+	padding: 6px 0;
+}
+.table-endorsement tr {
+	border-bottom: 1px solid #ccc;
+}
+.table-endorsement tr td {
+	padding: 12px 0;
+}
+
+.table-points th.points {
+	color: white;
+}
+
+.prov-Entitlements .col {
+   	padding-right: 20px;
+	display: inline-block;
+}
+
+.full-Entitlements .col {
+   	padding-right: 20px;
+	display: inline-block;
+}
+
+.image-Middle-Align {
+  vertical-align:middle;
+}
+
+.image-Margin-Pull {
+  margin-bottom: 5px;
+}
+
+.full-Entitlements a {
+  text-decoration: none;
+ }
+
+.prov-Entitlements a {
+  text-decoration: none;
+}
+
+.table-points .points {
+	width: 10%;
+	color: red;
+	padding-left: 6px;
+}
+.table-points .table {
+	width: 10%;
+}
+.table-points .offence {
+	width: 15%;	
+}
+.table-points .expiry {
+	width: 15%;	
+}
+.table-points .desc {
+	width: 40%;	
+}
+.table-points .court {
+	width: 20%;
+}
+
+
+
+.table-disqualifications .code {
+	width: 8%;
+	padding-left: 6px;
+}
+.table-disqualifications .period {
+	width: 12%;
+}
+.table-disqualifications .offense-date {
+	width: 12%;
+}
+.table-disqualifications .convict-date {
+	width: 12%;
+}
+.table-disqualifications .sentence-date {
+	width: 12%;
+}
+.table-disqualifications .court {
+	width: ;
+}
+.table-disqualifications .points {
+	width: ;
+}
+.table-disqualifications .fine {
+	width: ;
+}
+.table-disqualifications .removed-date {
+	width: ;
+}
+.desc-text {
+	
+	padding-right: 18px;
+}
+.disq-record .col {
+
+	padding-right: 20px;
+	display: inline-block;
+}
+
+.disq-record a {
+    text-decoration:none;
+}
+
+.remove-from-licence a {
+    text-decoration: underline;
+}
+
+
+.default-font-size {
+	font-size: 14px;
+}
+
+.header-panel{
+
+	padding-left: 35px;
+}
+.header-panel a{
+	text-decoration: none;
+}
+
+/* JUNE 2013 styles by Glen */
+#ops {
+
+	padding-top: 1em;
+}
+.header-bar {
+	padding: 1em;
+	margin-bottom:1.5em;
+	background: #000;
+}
+.header-bar h1 {
+
+	color: #fff;
+	font-size: 1em;
+}
+#ops .form-unit {
+	min-height: 57em;
+}
+.step-heading {
+	font-weight: bold;
+	padding-bottom: 0.2em ;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 1em;
+
+
+}
+.or {
+
+	border-bottom: 1px solid #ccc;
+	height: 0.75em;
+	text-align: center;
+	margin: 2em 0;
+	font-weight: bold;
+}
+.or span {
+	background: #eaedef;
+}
+
+.small {
+	font-size: 0.75em;
+}
+.enquiry-reason .step1-radio li {
+	margin-bottom: 0.5em !important;
+}
+
+.button-next {
+
+	float: right;
+	margin-top: 1.75em;
+	font-size: 1.25em;
+}
+
+#wrapper.service header.page-header hgroup h1.ops{
+	background-image: none;
+}
+.control-group {
+  padding-left:8px;
+}
+.control-group.error {
+  border-left: 3px solid #b94a48;
+  padding-left: 5px;
+}
+
+.inline.error {
+  border-left: 3px solid #b94a48;
+  padding-left: 5px;
+}
+
+.inline.error input, .inline.error select {
+    color:#b94a48;
+}
+
+.validation-message {
+    color: #b94a48;
+}
+
+.validation .help-inline{
+	display: inline-block !important;
+}
+
+.help-inline{
+	display: none !important;
+}
+
+.validation-summary p {
+    color: #df3034;
+}
+
+.validation-summary ol {
+    list-style-type:disc;
+    color: #df3034;
+    padding-left: 2.2em;
+	margin-top: 0.75em;
+	margin-bottom: 0.75em;
+}
+
+.validation-summary {
+	border: 3px solid #df3034;
+	box-sizing: border-box;
+	padding: 1em 1em 0.25em 1em;
+	margin: 1em -1em 1.5em -1em;
+	background-color: #fef7f7;
+}
+.validation-summary h1 {
+	font-size: 2.4rem;
+	line-height: 1.25;
+	text-transform: none;
+	font-weight: 700;
+}
+
+.validation-summary li {
+	font-size: 1.6rem;
+	line-height: 1.25;
+	font-weight: 300;
+	text-transform: none;
+}
+.validation-summary li a {
+	color: #df3034;
+	text-decoration: none;
+}
+
+.control-group ul.inline li p{
+	font-size: 18px !important;
+	margin-left: 4px !important;
+	display: inline-block;
+}
+
+.show-more
+{
+  margin-bottom: 2px;
+  border: 1px solid #e3e3e3;
+   background-color: #f5f5f5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.show-more a
+{
+  text-decoration: none;
+  display: block;
+  cursor:pointer;
+}
+
+.word-wrap{
+   word-wrap: break-word;
+}
+
+.info-notice.well .rhs-info{
+   width: 90%;
+}
+
+.endorsement-removed-notice{
+   width: 90%;
+
+   margin-left: -5px !important;
+   float: left;
+   background: url(https://assets.digital.cabinet-office.gov.uk/static/icon-information.png) no-repeat 1em;
+}
+.endorsement-removed-notice p{
+   margin-left: 50px !important;
+   margin-top: 22px;
+}
+.padded-left {
+    padding:0px 0px 0px 70px
+}
+
+#dln {
+    width:210px;
+}
+
+input[type="text"]{
+    height:initial !important;
+}
+
+#footer .footer-meta {
+    margin-top:5px !important;
+    padding-top:5px!important;
+    border-width:0 !important;
+}
+
+#footer .footer-wrapper {
+    padding-top:0 !important;
+}
+
+div.whereToFind {
+    margin-top:0;
+}
+
+span.whereToFind {
+    text-decoration:underline;
+    position:relative;
+    padding-left:5px !important;
+    cursor:pointer;
+}
+
+span.arrow {
+    color:rgb(0, 0, 0);
+}

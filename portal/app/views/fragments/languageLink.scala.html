@@ -1,0 +1,5 @@
+@()(implicit request: RequestHeader, lang: Lang)
+
+@defining(if (lang.language == "en") "cy" else "en") { alternativeLanguage =>
+    <li><a href="@routes.Application.changeLanguage(alternativeLanguage, request.uri)">@Messages("views.index.footer.alt-lang.name")</a></li>
+}

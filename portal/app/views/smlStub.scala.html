@@ -1,0 +1,51 @@
+@(token: String, data: String)(implicit request: RequestHeader, lang: Lang)
+
+@templates.vdl(Messages("application.title")) {
+
+<div id="blueBar"></div>
+
+<section id="content" role="main2" class="group">
+    <div class="login-form">
+        <header class="page-header group">
+            <hgroup>
+                <h1>@Html(Messages("views.sml.title"))</h1>
+            </hgroup>
+        </header>
+        <article role="article" class="group">
+
+            <div class="text">
+                <h1>@Html(Messages("views.sml.heading1"))</h1>
+                <p>@Html(Messages("views.sml.body"))</p>
+
+                @if(token == "There was an error creating your token."){
+                    <div class="dwp-permission-group share-code">
+                        <h2>@token</h2>
+                    </div>
+                } else {
+                    @if(token != "") {
+                        <div class="dwp-permission-group share-code">
+                            <p>@Html(Messages("views.sml.checkCode"))</p>
+                            <h2>@token</h2>
+                            <p>@Html(Messages("views.sml.checkCodeInfo"))</p>
+                            <ul class="list-bullet">
+                                <li>@Html(Messages("views.sml.checkCodeInfo.1"))</li>
+                                <li>@Html(Messages("views.sml.checkCodeInfo.2"))</li>
+                                <li>@Html(Messages("views.sml.checkCodeInfo.3"))</li>
+                            </ul>
+                            <p><a href="/driving-record/share/pdf/@data">@Html(Messages("views.sml.downloadPDF"))</a></p>
+                        </div>
+                    }
+                }
+
+                <form action="/gentoken" method="POST" class="form-horizontal search-form">
+                    <h2>@Html(Messages("views.sml.form1"))</h2> <span class="form-hint">@Html(Messages("views.sml.dlnExample"))</span>
+                    <input type="text" name="dln" id="docRef"  id="dln">
+
+                    <p><input type="submit" id="submitDln" class="button " value="@Html(Messages("views.sml.button"))"></p>
+                </form>
+            </div>
+        </article>
+    </div>
+</section>
+
+}

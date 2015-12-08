@@ -1,0 +1,21 @@
+application.title=View your driving licence information
+
+views.sml.title=Stub Portal
+views.sml.heading1=Get a share code
+views.sml.button=Get a Code
+views.sml.body=To generate a share code please fill in the form below and click the "Get a Code" button.
+views.sml.form1=Driving Licence Number
+views.sml.dlnExample=e.g. MORGA657054SM9IJ
+
+views.sml.checkCode=Your check code is:
+views.sml.checkCodeInfo=This code:
+views.sml.checkCodeInfo.1=is case sensitive
+views.sml.checkCodeInfo.2=is valid for 21 days
+views.sml.checkCodeInfo.3=can only be used once
+views.sml.downloadPDF=View, print or save your licence information
+
+views.index.footer.alt-lang.name=Cymraeg
+views.helpers.footer.GDS=Built by the <a href="https://www.gov.uk/government/organisations/driver-and-vehicle-licensing-agency">Driver and Vehicle Licensing Agency</a>
+views.helpers.footer.OGL=All content is available under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2" target="_blank">Open Government Licence v2.0</a>, except where otherwise stated
+
+views.helpers.footer.copyright=Crown Copyright

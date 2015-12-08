@@ -1,0 +1,35 @@
+@import "_colours";
+@import "_css3";
+@import "_device-pixels";
+@import "_typography";
+@import "_conditionals";
+@import "_shims";
+@import "_conditionals2";
+
+
+/* ------------------------------------
+ general 
+------------------------------------ */
+header h2 {
+  color: $white;
+}
+
+#content {
+  margin: 0 auto;
+  max-width: 1020px;
+  position: relative;
+}
+.group article {
+  margin-bottom: 4em;
+}
+
+#footer .footer-meta {
+    margin-top:5px;
+    padding-top:5px;
+    border-width:0;
+}
+
+#footer .footer-wrapper {
+    padding-top:0;
+}
+

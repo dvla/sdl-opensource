@@ -1,0 +1,10 @@
+require([
+    "driver_details",
+    "timerUtilities",
+    "miscellaneous",
+    "view-dl",
+    "formFiller",
+    "FieldValidator",
+    "dobValidator",
+    "cookies"
+])

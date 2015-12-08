@@ -1,0 +1,27 @@
+.detail-adjustment{
+	height: 21px;
+	width: 137px;
+	padding-left: 6px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	left: -2px;
+	position: relative;
+	margin: 0;
+}
+
+.no-min-height{
+	min-height: 0px
+}
+
+.pop-up{
+	cursor: pointer;
+}
+
+a.accordion-toggle span.expando{
+	top: 3px;
+	position: relative;
+	width: 16px;
+	height: 16px;
+	padding: 0 !important;
+}

@@ -1,0 +1,18 @@
+a.accordion-toggle span.expando{
+	top: -30px;
+	left: -5px;
+}
+
+a.accordion-toggle span.expander{
+	top: -33px;
+	left: -5px;
+	position: relative;
+}
+
+.accordion-body{
+    width: 100%;
+}
+
+section#content{
+    width: auto;
+}

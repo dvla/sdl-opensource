@@ -1,0 +1,19 @@
+@(title: String = "application.title")(implicit lang:Lang)
+
+<header role="banner" id="global-header">
+    <div class="header-wrapper">
+        <div class="header-global">
+            <ul>
+                <li class="header-logo-li">
+                    <div class="header-logo">
+                        <a href="https://www.gov.uk" title="@Messages("views.main.header.goto-gov")" id="logo" class="content" target="_blank">
+                        <img src="@routes.Assets.at("img/gov.uk_logotype_crown.png")" alt="GOV.UK"></img>GOV.UK</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="header-title">@Messages(title)</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
